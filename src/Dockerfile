@@ -10,4 +10,4 @@ WORKDIR /tools
 RUN dotnet new tool-manifest
 RUN dotnet tool install JetBrains.ReSharper.GlobalTools
 
-CMD dotnet jb inspectcode $SOLUTION_FILE_PATH -o=/artifacts/result.xml
+CMD dotnet build $SOLUTION_FILE_PATH && dotnet jb inspectcode $SOLUTION_FILE_PATH -o=/artifacts/result.xml
