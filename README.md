@@ -4,7 +4,7 @@ NuGet: https://hub.docker.com/r/godeltech/codereview.analyzers.inspectcode
 
 ## Description
 
-This project provides a Docker image to run JetBrains.ReSharper.GlobalTools for code inspection.
+This project provides a Docker image to run [JetBrains.ReSharper.GlobalTools](https://www.nuget.org/packages/jetbrains.resharper.globaltools) for code inspection.
 
 ## Usage
 
