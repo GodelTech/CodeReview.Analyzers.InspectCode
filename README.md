@@ -1,6 +1,6 @@
 # CodeReview.Analyzers.InspectCode
 
-NuGet: https://hub.docker.com/r/godeltech/codereview.analyzers.inspectcode
+Docker image: https://hub.docker.com/r/godeltech/codereview.analyzers.inspectcode
 
 ## Description
 
